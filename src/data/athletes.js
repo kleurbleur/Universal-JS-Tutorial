@@ -1,5 +1,3 @@
-"use strict";
-
 const athletes = [
   {
     'id': 'driulis-gonzalez',

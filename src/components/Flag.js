@@ -29,7 +29,7 @@ export default class Flag extends React.Component {
       const icon = data[this.props.code].icon;
       return (
          <span className="flag">
-            <img className="icon" title={name} src={'/img/${icon}'}/>
+            <img className="icon" title={name} src={`/img/${icon}`}/>
             {this.props.showName && <span className="name"> {name}</span>}
          </span>
       );
